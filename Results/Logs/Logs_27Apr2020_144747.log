@@ -1,0 +1,23 @@
+04-27-2020 14:48:01 NSOPageValidations.java INFO  [main] log statements 40 - Execution started
+04-27-2020 14:48:05 CommonActions.java INFO  [main] log statements 104 - User is able to click SubmitRequest
+04-27-2020 14:48:06 CommonActions.java INFO  [main] log statements 138 - User is able to enter textClientName100 for ClientName
+04-27-2020 14:48:06 CommonActions.java INFO  [main] log statements 138 - User is able to enter textOpportunityName373 for OpportunityName
+04-27-2020 14:48:07 CommonActions.java INFO  [main] log statements 138 - User is able to enter text1212 for CRMid
+04-27-2020 14:48:07 CommonActions.java INFO  [main] log statements 104 - User is able to click SalesStage
+04-27-2020 14:48:07 CommonActions.java INFO  [main] log statements 104 - User is able to click SalesStageOpt
+04-27-2020 14:48:07 CommonActions.java INFO  [main] log statements 104 - User is able to click MeetingHeld
+04-27-2020 14:48:08 CommonActions.java INFO  [main] log statements 104 - User is able to click MeetingHeldOpt
+04-27-2020 14:48:08 CommonActions.java INFO  [main] log statements 138 - User is able to enter textConsulting; for ServiceLine
+04-27-2020 14:48:09 CommonActions.java INFO  [main] log statements 104 - User is able to click DeloittePrime
+04-27-2020 14:48:09 CommonActions.java INFO  [main] log statements 104 - User is able to click DeloittePrimeOpt
+04-27-2020 14:48:10 CommonActions.java ERROR [main] log statements 115 - User is not able to click UploadFile
+04-27-2020 14:48:10 CommonActions.java INFO  [main] log statements 138 - User is able to enter text1330 for EstimatedRevenue
+04-27-2020 14:48:11 CommonActions.java INFO  [main] log statements 104 - User is able to click ClosingDate
+04-27-2020 14:48:11 CommonActions.java INFO  [main] log statements 104 - User is able to click SelectedDate
+04-27-2020 14:48:11 CommonActions.java INFO  [main] log statements 104 - User is able to click LeadEngagementPartner
+04-27-2020 14:48:32 CommonActions.java ERROR [main] log statements 115 - User is not able to click EngagementPartnerInput
+04-27-2020 14:48:53 CommonActions.java ERROR [main] log statements 149 - User is not able to enter textSowri for EngagementPartnerInput
+04-27-2020 14:48:53 CommonActions.java INFO  [main] log statements 104 - User is able to click PartnerOffice
+04-27-2020 14:48:53 CommonActions.java INFO  [main] log statements 104 - User is able to click PartnerOfficeOpt
+04-27-2020 14:48:53 CommonActions.java INFO  [main] log statements 104 - User is able to click SrManager
+04-27-2020 14:49:03 CommonActions.java INFO  [main] log statements 104 - User is able to click SrManagerInput

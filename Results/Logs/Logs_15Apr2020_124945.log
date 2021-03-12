@@ -1,0 +1,36 @@
+04-15-2020 12:50:17 NSOPageValidations.java INFO  [main] log statements 26 - Execution started
+04-15-2020 12:50:27 CommonActions.java INFO  [main] log statements 104 - User is able to click ViewRequest
+04-15-2020 12:50:30 CommonActions.java INFO  [main] log statements 104 - User is able to click DetailedView
+04-15-2020 12:50:30 CommonActions.java INFO  [main] log statements 104 - User is able to click DetailedViewOpenMenu
+04-15-2020 12:50:31 CommonActions.java INFO  [main] log statements 104 - User is able to click ViewItem
+04-15-2020 12:50:31 CommonActions.java INFO  [main] log statements 104 - User is able to click CloseViewItem
+04-15-2020 12:50:32 CommonActions.java INFO  [main] log statements 104 - User is able to click HomePage
+04-15-2020 12:50:36 CommonActions.java INFO  [main] log statements 104 - User is able to click PursuitResources
+04-15-2020 12:50:38 CommonActions.java INFO  [main] log statements 104 - User is able to click NewDocument
+04-15-2020 12:50:42 CommonActions.java INFO  [main] log statements 341 - User is able to switch to frame UploadIframe
+04-15-2020 12:50:42 CommonActions.java INFO  [main] log statements 104 - User is able to click ChooseFile
+04-15-2020 12:50:54 CommonActions.java INFO  [main] log statements 104 - User is able to click Ok
+04-15-2020 12:50:55 CommonActions.java INFO  [main] log statements 104 - User is able to click ContentType
+04-15-2020 12:50:55 CommonActions.java INFO  [main] log statements 104 - User is able to click Language
+04-15-2020 12:50:56 CommonActions.java INFO  [main] log statements 104 - User is able to click Save
+04-15-2020 12:50:58 CommonActions.java INFO  [main] log statements 138 - User is able to enter textTest for SearchInput
+04-15-2020 12:50:59 CommonActions.java INFO  [main] log statements 104 - User is able to click Search
+04-15-2020 12:51:00 CommonActions.java INFO  [main] log statements 104 - User is able to click HomePage
+04-15-2020 12:51:03 CommonActions.java INFO  [main] log statements 104 - User is able to click AccountManagerResources
+04-15-2020 12:51:04 CommonActions.java INFO  [main] log statements 104 - User is able to click NewDocument
+04-15-2020 12:51:08 CommonActions.java INFO  [main] log statements 341 - User is able to switch to frame UploadIframe
+04-15-2020 12:51:08 CommonActions.java INFO  [main] log statements 104 - User is able to click ChooseFile
+04-15-2020 12:51:16 CommonActions.java INFO  [main] log statements 104 - User is able to click Ok
+04-15-2020 12:51:16 CommonActions.java INFO  [main] log statements 104 - User is able to click ContentType
+04-15-2020 12:51:17 CommonActions.java INFO  [main] log statements 104 - User is able to click Language
+04-15-2020 12:51:19 CommonActions.java INFO  [main] log statements 104 - User is able to click Save
+04-15-2020 12:51:20 CommonActions.java INFO  [main] log statements 138 - User is able to enter textTest for SearchInput
+04-15-2020 12:51:20 CommonActions.java INFO  [main] log statements 104 - User is able to click Search
+04-15-2020 12:51:21 CommonActions.java INFO  [main] log statements 104 - User is able to click HomePage
+04-15-2020 12:51:24 CommonActions.java INFO  [main] log statements 104 - User is able to click NavigateToInternalSite
+04-15-2020 12:51:26 CommonActions.java INFO  [main] log statements 104 - User is able to click Toolkit
+04-15-2020 12:51:27 CommonActions.java INFO  [main] log statements 104 - User is able to click NewDocument
+04-15-2020 12:51:31 CommonActions.java INFO  [main] log statements 341 - User is able to switch to frame UploadIframe
+04-15-2020 12:51:31 CommonActions.java INFO  [main] log statements 104 - User is able to click ChooseFile
+04-15-2020 12:51:38 CommonActions.java INFO  [main] log statements 104 - User is able to click Ok
+04-15-2020 12:52:13 NSOPageValidations.java INFO  [main] log statements 38 - Execution stopped

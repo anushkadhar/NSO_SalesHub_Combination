@@ -1,0 +1,6 @@
+02-16-2021 19:02:12 ExecuteOps.java INFO  [main] log statements 22 - Execution started
+02-16-2021 19:02:38 CommonActions.java INFO  [main] log statements 105 - User is able to click linkNew
+02-16-2021 19:02:38 CommonActions.java INFO  [main] log statements 105 - User is able to click linkNewList
+02-16-2021 19:02:40 ReusableComponents.java INFO  [main] log statements 40 - Element is visible linkBlankList
+02-16-2021 19:02:40 CommonActions.java INFO  [main] log statements 209 - User is able to click linkBlankList
+02-16-2021 19:03:23 ExecuteOps.java INFO  [main] log statements 34 - Execution stopped

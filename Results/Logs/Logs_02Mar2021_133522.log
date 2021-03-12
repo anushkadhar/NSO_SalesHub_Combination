@@ -1,0 +1,10 @@
+03-02-2021 13:35:34 ExecuteOps.java INFO  [main] log statements 22 - Execution started
+03-02-2021 13:36:00 CommonActions.java INFO  [main] log statements 105 - User is able to click linkDocuments
+03-02-2021 13:36:16 CommonActions.java INFO  [main] log statements 105 - User is able to click btnUpload
+03-02-2021 13:36:25 CommonActions.java INFO  [main] log statements 105 - User is able to click linkFiles
+03-02-2021 13:36:38 CommonActions.java INFO  [main] log statements 105 - User is able to click linkDocumentCheckbox
+03-02-2021 13:36:39 CommonActions.java INFO  [main] log statements 105 - User is able to click btnDownload
+03-02-2021 13:36:49 CommonActions.java INFO  [main] log statements 105 - User is able to click linkDelete
+03-02-2021 13:36:54 CommonActions.java ERROR [main] log statements 116 - User is not able to click btnDelete
+03-02-2021 13:36:57 CommonActions.java INFO  [main] log statements 105 - User is able to click linkNSO
+03-02-2021 13:37:02 ExecuteOps.java INFO  [main] log statements 37 - Execution stopped

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Sanity" duration-ms="80719" started-at="2021-03-02T08:27:09Z" finished-at="2021-03-02T08:28:29Z">
+    <groups>
+    </groups>
+    <test name="ExecuteOps" duration-ms="80719" started-at="2021-03-02T08:27:09Z" finished-at="2021-03-02T08:28:29Z">
+      <class name="testNGClasses.ExecuteOps">
+        <test-method status="PASS" signature="setBaseURL()[pri:0, instance:testNGClasses.ExecuteOps@3b07a0d6]" name="setBaseURL" is-config="true" duration-ms="7273" started-at="2021-03-02T08:27:09Z" finished-at="2021-03-02T08:27:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBaseURL -->
+        <test-method status="PASS" signature="execute()[pri:0, instance:testNGClasses.ExecuteOps@3b07a0d6]" name="execute" duration-ms="70928" started-at="2021-03-02T08:27:16Z" finished-at="2021-03-02T08:28:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- execute -->
+        <test-method status="PASS" signature="endSession()[pri:0, instance:testNGClasses.ExecuteOps@3b07a0d6]" name="endSession" is-config="true" duration-ms="2479" started-at="2021-03-02T08:28:27Z" finished-at="2021-03-02T08:28:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endSession -->
+      </class> <!-- testNGClasses.ExecuteOps -->
+    </test> <!-- ExecuteOps -->
+  </suite> <!-- Sanity -->
+</testng-results>

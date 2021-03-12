@@ -1,0 +1,12 @@
+04-14-2020 18:35:21 NSOPageValidations.java INFO  [main] log statements 26 - Execution started
+04-14-2020 18:35:35 CommonActions.java INFO  [main] log statements 104 - User is able to click ViewRequest
+04-14-2020 18:35:38 CommonActions.java INFO  [main] log statements 104 - User is able to click DetailedView
+04-14-2020 18:35:38 CommonActions.java INFO  [main] log statements 104 - User is able to click DetailedViewOpenMenu
+04-14-2020 18:35:40 CommonActions.java INFO  [main] log statements 104 - User is able to click ViewItem
+04-14-2020 18:35:41 CommonActions.java INFO  [main] log statements 104 - User is able to click CloseViewItem
+04-14-2020 18:35:42 CommonActions.java INFO  [main] log statements 104 - User is able to click HomePage
+04-14-2020 18:35:45 CommonActions.java INFO  [main] log statements 104 - User is able to click PursuitResources
+04-14-2020 18:35:46 CommonActions.java INFO  [main] log statements 104 - User is able to click NewDocument
+04-14-2020 18:35:50 CommonActions.java INFO  [main] log statements 341 - User is able to switch to frame UploadIframe
+04-14-2020 18:35:51 CommonActions.java INFO  [main] log statements 104 - User is able to click ChooseFile
+04-14-2020 18:35:56 CommonActions.java INFO  [main] log statements 104 - User is able to click Ok

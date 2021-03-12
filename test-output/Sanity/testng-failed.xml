@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Sanity]">
+  <test thread-count="5" name="ExecuteOps(failed)">
+    <classes>
+      <class name="testNGClasses.ExecuteOps">
+        <methods>
+          <include name="setBaseURL"/>
+          <include name="endSession"/>
+          <include name="execute"/>
+        </methods>
+      </class> <!-- testNGClasses.ExecuteOps -->
+    </classes>
+  </test> <!-- ExecuteOps(failed) -->
+</suite> <!-- Failed suite [Sanity] -->

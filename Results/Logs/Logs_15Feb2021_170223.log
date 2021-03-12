@@ -1,0 +1,4 @@
+02-15-2021 17:02:32 ExecuteOps.java INFO  [main] log statements 22 - Execution started
+02-15-2021 17:02:35 CommonActions.java INFO  [main] log statements 105 - User is able to click linkNew
+02-15-2021 17:02:37 CommonActions.java INFO  [main] log statements 105 - User is able to click linkNewList
+02-15-2021 17:03:18 CommonActions.java ERROR [main] log statements 116 - User is not able to click linkBlankList

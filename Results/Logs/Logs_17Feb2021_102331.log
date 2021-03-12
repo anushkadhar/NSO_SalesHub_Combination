@@ -1,0 +1,5 @@
+02-17-2021 10:23:40 ExecuteOps.java INFO  [main] log statements 22 - Execution started
+02-17-2021 10:24:01 CommonActions.java INFO  [main] log statements 105 - User is able to click linkNew
+02-17-2021 10:24:02 CommonActions.java INFO  [main] log statements 105 - User is able to click linkNewList
+02-17-2021 10:24:05 CommonActions.java INFO  [main] log statements 209 - User is able to click linkBlankList
+02-17-2021 10:24:50 CommonActions.java ERROR [main] log statements 116 - User is not able to click txtListName

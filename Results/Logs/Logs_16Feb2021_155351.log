@@ -1,0 +1,8 @@
+02-16-2021 15:54:03 ExecuteOps.java INFO  [main] log statements 22 - Execution started
+02-16-2021 15:54:34 CommonActions.java INFO  [main] log statements 105 - User is able to click linkNew
+02-16-2021 15:54:34 CommonActions.java INFO  [main] log statements 105 - User is able to click linkNewList
+02-16-2021 15:55:16 CommonActions.java ERROR [main] log statements 116 - User is not able to click linkBlankList
+02-16-2021 15:55:57 CommonActions.java ERROR [main] log statements 116 - User is not able to click txtListName
+02-16-2021 15:56:38 CommonActions.java ERROR [main] log statements 150 - User is not able to enter textAutomationCheck for txtListName
+02-16-2021 15:57:23 CommonActions.java ERROR [main] log statements 116 - User is not able to click btnCreate
+02-16-2021 15:57:26 ExecuteOps.java INFO  [main] log statements 34 - Execution stopped

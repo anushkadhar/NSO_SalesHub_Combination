@@ -1,0 +1,6 @@
+02-17-2021 10:39:54 ExecuteOps.java INFO  [main] log statements 22 - Execution started
+02-17-2021 10:40:28 CommonActions.java INFO  [main] log statements 105 - User is able to click linkNew
+02-17-2021 10:40:28 CommonActions.java INFO  [main] log statements 105 - User is able to click linkNewList
+02-17-2021 10:40:32 CommonActions.java INFO  [main] log statements 209 - User is able to click linkBlankList
+02-17-2021 10:41:19 ReusableComponents.java ERROR [main] log statements 56 - Element is not visible txtListName
+02-17-2021 10:42:00 CommonActions.java ERROR [main] log statements 218 - User is not able to click txtListName

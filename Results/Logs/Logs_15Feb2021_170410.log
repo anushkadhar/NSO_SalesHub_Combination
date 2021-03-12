@@ -1,0 +1,4 @@
+02-15-2021 17:04:21 ExecuteOps.java INFO  [main] log statements 22 - Execution started
+02-15-2021 17:04:24 CommonActions.java INFO  [main] log statements 105 - User is able to click linkNew
+02-15-2021 17:04:26 CommonActions.java INFO  [main] log statements 105 - User is able to click linkNewList
+02-15-2021 17:05:07 CommonActions.java ERROR [main] log statements 150 - User is not able to enter textAutomationCheck for txtListName

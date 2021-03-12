@@ -1,0 +1,5 @@
+02-19-2021 17:13:55 ExecuteOps.java INFO  [main] log statements 22 - Execution started
+02-19-2021 17:14:20 CommonActions.java INFO  [main] log statements 105 - User is able to click linkDocuments
+02-19-2021 17:14:20 CommonActions.java INFO  [main] log statements 105 - User is able to click btnNew
+02-19-2021 17:14:33 CommonActions.java INFO  [main] log statements 105 - User is able to click linkNewDocument
+02-19-2021 17:14:35 ExecuteOps.java INFO  [main] log statements 36 - Execution stopped

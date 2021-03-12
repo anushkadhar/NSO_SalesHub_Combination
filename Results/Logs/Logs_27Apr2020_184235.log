@@ -1,0 +1,40 @@
+04-27-2020 18:42:47 NSOPageValidations.java INFO  [main] log statements 44 - Execution started
+04-27-2020 18:42:51 CommonActions.java INFO  [main] log statements 105 - User is able to click SubmitRequest
+04-27-2020 18:42:52 CommonActions.java INFO  [main] log statements 139 - User is able to enter textClientName194 for ClientName
+04-27-2020 18:42:52 CommonActions.java INFO  [main] log statements 139 - User is able to enter textOpportunityName336 for OpportunityName
+04-27-2020 18:42:52 CommonActions.java INFO  [main] log statements 139 - User is able to enter text719 for CRMid
+04-27-2020 18:42:53 CommonActions.java INFO  [main] log statements 105 - User is able to click SalesStage
+04-27-2020 18:42:53 CommonActions.java INFO  [main] log statements 105 - User is able to click SalesStageOpt
+04-27-2020 18:42:53 CommonActions.java INFO  [main] log statements 105 - User is able to click MeetingHeld
+04-27-2020 18:42:53 CommonActions.java INFO  [main] log statements 105 - User is able to click MeetingHeldOpt
+04-27-2020 18:42:54 CommonActions.java INFO  [main] log statements 139 - User is able to enter textConsulting; for ServiceLine
+04-27-2020 18:42:54 CommonActions.java INFO  [main] log statements 105 - User is able to click DeloittePrime
+04-27-2020 18:42:54 CommonActions.java INFO  [main] log statements 105 - User is able to click DeloittePrimeOpt
+04-27-2020 18:42:55 CommonActions.java ERROR [main] log statements 116 - User is not able to click UploadFile
+04-27-2020 18:42:55 CommonActions.java INFO  [main] log statements 139 - User is able to enter text133 for EstimatedRevenue
+04-27-2020 18:42:56 CommonActions.java INFO  [main] log statements 105 - User is able to click ClosingDate
+04-27-2020 18:42:56 CommonActions.java INFO  [main] log statements 105 - User is able to click SelectedDate
+04-27-2020 18:42:57 CommonActions.java ERROR [main] log statements 116 - User is not able to click LeadEngagementPartner
+04-27-2020 18:42:57 CommonActions.java INFO  [main] log statements 378 - User is able to clear text from LeadEngagementPartner
+04-27-2020 18:42:58 CommonActions.java INFO  [main] log statements 139 - User is able to enter textsmadduru@deloitte.ca for LeadEngagementPartner
+04-27-2020 18:43:00 CommonActions.java INFO  [main] log statements 620 - User is able to select textenter for LeadEngagementPartner
+04-27-2020 18:43:00 CommonActions.java INFO  [main] log statements 105 - User is able to click PartnerOffice
+04-27-2020 18:43:01 CommonActions.java INFO  [main] log statements 105 - User is able to click PartnerOfficeOpt
+04-27-2020 18:43:01 CommonActions.java ERROR [main] log statements 116 - User is not able to click SrManager
+04-27-2020 18:43:02 CommonActions.java INFO  [main] log statements 139 - User is able to enter textsmadduru@deloitte.ca for SrManager
+04-27-2020 18:43:05 CommonActions.java INFO  [main] log statements 620 - User is able to select textenter for SrManager
+04-27-2020 18:43:10 CommonActions.java INFO  [main] log statements 105 - User is able to click SubmitButton
+04-27-2020 18:43:54 CommonActions.java ERROR [main] log statements 357 - User is not able to switch to frameIframeOk
+04-27-2020 18:44:35 CommonActions.java ERROR [main] log statements 116 - User is not able to click Ok
+04-27-2020 18:44:35 CommonActions.java ERROR [main] log statements 116 - User is not able to click HomePage
+04-27-2020 18:45:17 CommonActions.java ERROR [main] log statements 116 - User is not able to click ViewRequest
+04-27-2020 18:45:17 CommonActions.java ERROR [main] log statements 116 - User is not able to click DetailedView
+04-27-2020 18:45:18 CommonActions.java ERROR [main] log statements 116 - User is not able to click DetailedViewOpenMenu
+04-27-2020 18:45:59 CommonActions.java ERROR [main] log statements 116 - User is not able to click ViewItem
+04-27-2020 18:46:20 CommonActions.java ERROR [main] log statements 116 - User is not able to click CloseViewItem
+04-27-2020 18:46:21 CommonActions.java ERROR [main] log statements 116 - User is not able to click HomePage
+04-27-2020 18:47:02 CommonActions.java ERROR [main] log statements 116 - User is not able to click PursuitResources
+04-27-2020 18:47:43 CommonActions.java ERROR [main] log statements 116 - User is not able to click NewDocument
+04-27-2020 18:47:47 CommonActions.java INFO  [main] log statements 352 - User is able to switch to frame UploadIframe
+04-27-2020 18:48:28 CommonActions.java ERROR [main] log statements 116 - User is not able to click ChooseFile
+04-27-2020 18:48:44 NSOPageValidations.java INFO  [main] log statements 58 - Execution stopped

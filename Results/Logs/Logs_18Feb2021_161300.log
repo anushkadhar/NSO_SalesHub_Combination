@@ -1,0 +1,7 @@
+02-18-2021 16:13:07 ExecuteOps.java INFO  [main] log statements 22 - Execution started
+02-18-2021 16:13:43 CommonActions.java INFO  [main] log statements 105 - User is able to click linkNew
+02-18-2021 16:13:43 CommonActions.java INFO  [main] log statements 105 - User is able to click linkDocumentLibrary
+02-18-2021 16:13:44 CommonActions.java INFO  [main] log statements 139 - User is able to enter textAutomationCheck for txtDocumentName
+02-18-2021 16:13:44 CommonActions.java INFO  [main] log statements 105 - User is able to click linkCheckbox
+02-18-2021 16:13:47 CommonActions.java INFO  [main] log statements 105 - User is able to click btnCreate
+02-18-2021 16:13:53 CommonActions.java ERROR [main] log statements 116 - User is not able to click btnNew
