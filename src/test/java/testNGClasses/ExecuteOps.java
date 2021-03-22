@@ -16,7 +16,8 @@ ReusableComponents comp=new ReusableComponents();
 
 @BeforeTest
 public void setBaseURL() throws Exception {
-	loadPropertiesFile();
+	fetchExecutionData();
+	loadPropertiesFiles();
 	common.invokeBrowser();
 	common.setEnvtURL();
 	logged.info("Execution started");
@@ -25,10 +26,10 @@ public void setBaseURL() throws Exception {
 @Test
 public void execute() throws Exception
 {
-	//comp.createList();
+	comp.createList();
 	//comp.createDocumentLibrary();
 	//comp.createDocument();
-	comp.uploadFunctionality();
+	//comp.uploadFunctionality();
 }
 
 @AfterTest

@@ -1044,7 +1044,51 @@ public class BaseClass extends FileAppender{
 		      System.out.println("Summary Report File already exists");
 		    }
 		  }
-	
+	// ******************** load properties file ************
+
+			/**
+			 * This method is used to load the configuration properties file
+			 */
+			public void loadPropertiesFiles() {
+
+				try {
+					prop = new Properties();
+					InputStream fileip = getClass().getClassLoader().getResourceAsStream(propertyFilePath);
+					/*
+					 * FileInputStream fileip; fileip = new FileInputStream(propertyFilePath) ;
+					 */
+					prop.load(fileip);
+					logged.info("Loaded properties file");
+				} catch (FileNotFoundException e) {
+					e.printStackTrace();
+					throw new RuntimeException("Configuration properties file not found at " + propertyFilePath);
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
+
+			}
+
+			// ******************** Read all the values from excel and OR sheets
+			// ************
+
+			/**
+			 * This method is used to read the configuration properties file and excel data
+			 */
+			public void fetchExecutionData() {
+
+				try {
+					logged.info("Read test data and object repository");
+					readEnvtDetails();
+					readTestData();
+					readObjectRepository();
+					readTestExecution();
+					PropertyConfigurator.configure(logPropertyPath);
+				} catch (Exception e) {
+					System.out.println("testSuiteExecutionFlow Method Exception Message: " + e);
+					throw new SkipException("Skipping execution - Test Suite Execution Failed");
+				}
+
+			}
 	   /**
 		This method is used to calculate sum of Execution time
 		@param strTime - total execution time	
