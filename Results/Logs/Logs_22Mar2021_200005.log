@@ -1,0 +1,4 @@
+03-22-2021 20:00:11 ExecuteOps.java INFO  [main] log statements 23 - Execution started
+03-22-2021 20:00:53 CommonActions.java ERROR [main] log statements 116 - User is not able to click linkNew
+03-22-2021 20:01:34 CommonActions.java ERROR [main] log statements 116 - User is not able to click linkNewList
+03-22-2021 20:02:15 ExecuteOps.java INFO  [main] log statements 38 - Execution stopped

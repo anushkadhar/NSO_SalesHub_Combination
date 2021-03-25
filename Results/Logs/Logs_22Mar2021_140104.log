@@ -1,0 +1,4 @@
+03-22-2021 14:01:04 BaseClass.java INFO  [main] log statements 1080 - Read test data and object repository
+03-22-2021 14:01:13 ExecuteOps.java INFO  [main] log statements 23 - Execution started
+03-22-2021 14:01:43 CommonActions.java INFO  [main] log statements 105 - User is able to click linkNew
+03-22-2021 14:01:44 CommonActions.java INFO  [main] log statements 105 - User is able to click linkNewList

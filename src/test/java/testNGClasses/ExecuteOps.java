@@ -17,7 +17,7 @@ ReusableComponents comp=new ReusableComponents();
 @BeforeTest
 public void setBaseURL() throws Exception {
 	fetchExecutionData();
-	loadPropertiesFiles();
+	loadPropertiesFile();
 	common.invokeBrowser();
 	common.setEnvtURL();
 	logged.info("Execution started");

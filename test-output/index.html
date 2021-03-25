@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Sanity">
-              <span class="suite-name border-skipped">Sanity</span>
+              <span class="suite-name border-failed">Sanity</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,21 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,  1 skipped,  </span>
+                    <span class="method-stats">1 method, 1 failed,   </span>
                   </li>
                   <li>
-                    <span class="method-list-title skipped">Skipped methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-Sanity" class="hide-methods skipped suite-Sanity"> (hide)</a> <!-- hide-methods skipped suite-Sanity -->
-                      <a href="#" panel-name="suite-Sanity" class="show-methods skipped suite-Sanity"> (show)</a> <!-- show-methods skipped suite-Sanity -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Sanity" class="hide-methods failed suite-Sanity"> (hide)</a> <!-- hide-methods failed suite-Sanity -->
+                      <a href="#" panel-name="suite-Sanity" class="show-methods failed suite-Sanity"> (show)</a> <!-- show-methods failed suite-Sanity -->
                     </span>
-                    <div class="method-list-content skipped suite-Sanity">
+                    <div class="method-list-content failed suite-Sanity">
                       <span>
-                        <img width="3%" src="skipped.png"/>
+                        <img width="3%" src="failed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Sanity" title="testNGClasses.ExecuteOps" hash-for-method="execute">execute</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content skipped suite-Sanity -->
+                    </div> <!-- method-list-content failed suite-Sanity -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -117,9 +117,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Sanity" class="panel Sanity">
-          <div class="suite-Sanity-class-skipped">
+          <div class="suite-Sanity-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
+              <img src="failed.png"/>
               <span class="class-name">testNGClasses.ExecuteOps</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -128,21 +128,22 @@
                   <a name="execute">
                   </a> <!-- execute -->
                   <span class="method-name">execute</span>
-                  <div class="stack-trace">java.lang.NullPointerException
-	at java.util.Properties$LineReader.readLine(Unknown Source)
-	at java.util.Properties.load0(Unknown Source)
-	at java.util.Properties.load(Unknown Source)
-	at testBase.BaseClass.loadPropertiesFiles(BaseClass.java:1060)
-	at testNGClasses.ExecuteOps.setBaseURL(ExecuteOps.java:20)
+                  <div class="stack-trace">org.openqa.selenium.NoSuchFrameException: No frame element found by name or id createListFrame
+Build info: version: &apos;3.141.5&apos;, revision: &apos;d54ebd709a&apos;, time: &apos;2018-11-06T11:42:16&apos;
+System info: host: &apos;CAVDI2GP300066&apos;, ip: &apos;10.60.56.192&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:885)
+	at pages.ReusableComponents.createList(ReusableComponents.java:33)
+	at testNGClasses.ExecuteOps.execute(ExecuteOps.java:29)
 	at testBase.BaseClass.runTestNGSuite(BaseClass.java:279)
 	at testBase.BaseClass.testSuiteExecutionFlow(BaseClass.java:323)
 	at executionFlow.TestFlow.main(TestFlow.java:10)
-... Removed 21 stack frames
+... Removed 22 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Sanity-class-skipped -->
+          </div> <!-- suite-Sanity-class-failed -->
         </div> <!-- panel Sanity -->
         <div panel-name="test-xml-Sanity" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -202,12 +203,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'execute')
 data.setCell(0, 2, 'testNGClasses.ExecuteOps')
-data.setCell(0, 3, 0);
+data.setCell(0, 3, 123219);
 window.suiteTableData['Sanity']= { tableData: data, tableDiv: 'times-div-Sanity'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 0 ms</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-Sanity">
               </div> <!-- times-div-Sanity -->
             </div> <!-- times-div -->
@@ -234,16 +235,20 @@ return data;
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
               <div class="chronological-class-name">testNGClasses.ExecuteOps</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">execute</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- test-method -->
               <div class="configuration-test before">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">setBaseURL</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">execute</span>
+                <span class="method-start">6820 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">endSession</span>
+                <span class="method-start">130039 ms</span>
+              </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
